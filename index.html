@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+      <link rel="stylesheet" href="styles.css">
+      
+      <title>Frontend Mentor | Results summary component</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      
+    </head>
+    <body>
+
+      
+
+      <div class="container mx-auto flex lg:flex-row flex-col lg:py-32 justify-center items-center px-10 min-h-screen lg:relative">
+        <div class="flex flex-col items-center font-serif
+        justify-center lg:p-8 p-3 lg:w-[24rem] w-[30rem] h-[28rem] lg:h-[30rem]  lg:space-y-3 lg:rounded-3xl rounded-br-3xl rounded-bl-3xl bg-gradient-to-b from-indigo-600 to-indigo-800 lg:absolute lg:left-[18.8rem] lg:top-[8rem] z-50">
+        <h6 class="text-white text-[18px] py-4 my-6 opacity opacity-75">
+          Your Result
+        </h6>  
+        <div class="w-40 h-40 block space-y-6 text-center rounded-full
+        items-center justify-center  opacity
+        bg-gradient-to-b from-indigo-800 to-indigo-700 
+        opacity-90 py-9 ">
+          <div class=" flex flex-col text-white">
+            <p class="text-7xl items-center">
+              76
+            </p>
+            <p class="opacity opacity-50 text-sm">
+              of 100
+            </p>  
+        </div>
+      </div>
+
+          <div class=" py-4 space-y-4 text-white flex flex-col items-center text-center justify-center lg:w-[16rem]">
+              <span class="lg:text-2xl text-2xl font-bold ">Great<br></span>
+            <div class="opacity-75">You scored higher than 65% of the people who have taken these tests.</div>
+         
+          </div>
+       </div>
+
+       <!-- 2nd container -->
+
+       <div class="flex flex-col font-serif
+        justify-center px-10 shadow-xl p-8 lg:h-[30rem] w-[30rem] space-y-8 lg:w-[26rem] lg:space-y-4 rounded-b-2xl md:rounded-r-lg md:rounded-bl-none bg-white lg:absolute lg:inset-x-[42rem] lg:inset-y-[7.9rem]">
+
+        <p class="pt-4 mb-3">
+          Summary
+        </p>
+
+      <div class="bg-pink-100 flex items-center space-x-[13rem] whitespace-nowrap lg:space-x-[8.5rem] py-3 px-8 rounded-md  cursor-pointer hover:text-pink-500 hover:shadow-md">
+        <p class="text-pink-600 ">
+          <span class="inline-flex"> <img src="./images/icon-reaction.svg" 
+            class="w-5 h-5"
+           ></span>
+          Reaction </p>
+     <span>80 <span class="opacity-75">/ 100</span>
+    </span>
+      </div>
+
+      <div class="bg-pink-100 flex space-x-[13rem] whitespace-nowrap lg:space-x-[9rem] border border-tl-gray-400 py-3 px-8 rounded-md hover:text-yellow-500 hover:shadow-md cursor-pointer">
+        <p class="text-yellow-500">
+          <span class="inline-flex"> <img src="./images/icon-memory.svg" 
+            class="w-5 h-5"
+           ></span>
+          Memory</p>
+      <span>92 <span class="opacity-75">/ 100</span>
+    </span>
+      </div>
+
+      <div class="bg-green-100 flex space-x-[14rem] whitespace-nowrap lg:space-x-[10rem] py-3 px-8 rounded-md hover:text-green-500 hover:shadow-md cursor-pointer">
+      <p class="text-green-500">
+        <span class="inline-flex"> <img src="./images/icon-verbal.svg" 
+          class="w-5 h-5"
+         ></span>
+        Verbal</p>
+      <span>61 <span class="opacity-75">/ 100</span>
+    </span>
+      </div>
+
+      <div class="bg-blue-100 flex items-center justify-center space-x-[14rem] whitespace-nowrap lg:space-x-[10rem] py-3 px-9 rounded-md hover:text-blue-500 hover:shadow-md cursor-pointer">
+      <p class="text-blue-500">
+        <span class="inline-flex  items-center justify-center"> <img src="./images/icon-visual.svg" 
+          class="w-5 h-5 "
+         ></span>
+        Visual</p>
+      <span>72 <span class="opacity-75">/ 100</span>
+    </span>
+      </div>
+      <button class="p-4 font-semibold bg-gray-600 rounded-full text-white
+     hover:bg-blue-800 hover:shadow-black/75"> Continue</button>
+     </div>
+     
+    </div>
+      
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Joshua</a>.
+      
+   
+
+
+    </body>
+    </html>
